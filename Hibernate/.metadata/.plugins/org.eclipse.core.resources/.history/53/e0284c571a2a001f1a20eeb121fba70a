@@ -1,0 +1,12 @@
+package com.rays.auction;
+
+import org.hibernate.mapping.Set;
+
+public class AuctionItem {
+
+	private int id;
+	private Set bids;
+	private String description;
+
+
+}
