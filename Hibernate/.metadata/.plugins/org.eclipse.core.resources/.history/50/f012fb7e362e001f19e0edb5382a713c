@@ -1,0 +1,10 @@
+package com.rays.subclass.discriminator;
+
+public class Cash {
+
+	public void setAmount(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

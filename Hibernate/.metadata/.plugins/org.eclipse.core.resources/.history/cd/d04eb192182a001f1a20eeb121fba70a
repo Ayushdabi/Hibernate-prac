@@ -1,0 +1,39 @@
+package com.rays.test;
+
+import java.util.Date;
+
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.rays.user.UserDTO;
+
+
+public class TestUser {
+	public static void main(String[] args) {
+		 //testadd();
+		 testupdate();
+	}
+		private static void testupdate() {
+		 UserDTO dto = new UserDTO();
+		 UserModel model = new UserModel();
+		 
+		
+	}
+		private static void testadd() {
+  		UserDTO dto = new UserDTO();
+		dto.setId(2);
+		dto.setFirstName("Uday");
+		dto.setLastName("Dabi");
+		dto.setLoginId("uday@gmail.com");
+		dto.setPassword("123");
+		dto.setDob(new Date());
+		dto.setAddress("indore");
+
+	  UserModel model =  new UserModel();
+	  model.add(dto);
+	}
+
+}

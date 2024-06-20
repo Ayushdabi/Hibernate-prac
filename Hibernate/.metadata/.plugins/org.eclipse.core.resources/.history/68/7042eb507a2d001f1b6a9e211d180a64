@@ -1,0 +1,6 @@
+package com.rays.inheritance;
+
+public class CreditCardPayment extends Payment {
+	private String ccType;
+
+}
